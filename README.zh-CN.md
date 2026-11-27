@@ -1,5 +1,7 @@
 # DiffAtlas — 面向 Google Antigravity (`agy`) 生态的可视化变更影响图与 Agent 时光机插件
 
+**语言 / Language**：**简体中文** | [English](./README.md)
+
 ![Version](https://img.shields.io/badge/version-v0.1.0-blue)
 ![Google Antigravity](https://img.shields.io/badge/Google_Antigravity_%28agy%29-Native_MCP_App_Plugin-4285F4)
 ![MCP Apps](https://img.shields.io/badge/MCP_Apps-SEP--1865-6E40C9)
@@ -9,8 +11,6 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 **面向 Google Antigravity (`agy`) 生态原生构建 · 原生 MCP App + Lifecycle Hooks + Skill + Rules · 同时兼容任意标准 MCP 客户端**
-
-**简体中文** | [English](./README.md)
 
 > **DiffAtlas** 是一款跨平台（Windows / macOS / Linux）、零原生 C++ 编译依赖的 **Google Antigravity (`agy`) 原生插件** 与开源 **MCP App（`SEP-1865`）** 工程驾驶舱。它以 100% 官方公开扩展契约为 **Antigravity 2.0**、**Antigravity CLI (`agy`)** 与 **Antigravity IDE** 扩展了可视化 Git Diff 审查、确定性多语言文件级影响图谱（**TS/JS、Vue/Svelte/Astro、Python、Go、Rust、C/C++、Java/Kotlin、C#**）、原生 `fileView` 源码跳转与毫秒级 `PreToolUse` / `PostToolUse` **Agent 时光机**，同时沉淀出一套与领域解耦的可复用 **`src/kit/` Antigravity 插件基础套件**，助力社区开发者快速扩展 `agy` 生态。
 >

@@ -71,7 +71,7 @@ agy plugin install https://github.com/JiuYue-sky/DiffAtlas/tree/v0.1.0
 在 GitHub 仓库主页（`https://github.com/JiuYue-sky/DiffAtlas`）配置 **About** 栏时，建议填入以下元数据以提升 **Google Antigravity (`agy`)** 与 **MCP Apps** 检索权重：
 
 - **推荐仓库简介（Description）**：
-  > Native Google Antigravity (agy) MCP App & Lifecycle Hooks plugin: visual git diff review, deterministic multi-language dependency blast-radius graph (TS/JS, Vue/Svelte/Astro, Python, Go, Rust, C/C++, Java/Kotlin, C#), native fileView jump, Agent Time Machine rollback & reusable AGY Plugin Kit (SEP-1865).
+  > Native Google Antigravity (agy) MCP App plugin: visual diff review, 8-language blast-radius graph, fileView jump, Agent Time Machine rollback & reusable AGY Plugin Kit.
 - **推荐主页链接（Website）**：
   > `https://github.com/JiuYue-sky/DiffAtlas#readme`
 - **推荐 GitHub Topics（最多 20 个）**：

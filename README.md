@@ -1,5 +1,7 @@
 # DiffAtlas — Visual Diff Impact Graph & Agent Time Machine Plugin for Google Antigravity (`agy`)
 
+**Language / 语言**: **English** | [简体中文](./README.zh-CN.md)
+
 ![Version](https://img.shields.io/badge/version-v0.1.0-blue)
 ![Google Antigravity](https://img.shields.io/badge/Google_Antigravity_%28agy%29-Native_MCP_App_Plugin-4285F4)
 ![MCP Apps](https://img.shields.io/badge/MCP_Apps-SEP--1865-6E40C9)
@@ -9,8 +11,6 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 **Built Natively for the Google Antigravity (`agy`) Ecosystem · Native MCP App + Lifecycle Hooks + Skill + Rules · Compatible with Any MCP Client**
-
-[简体中文](./README.zh-CN.md) | **English**
 
 > **DiffAtlas** is a cross-platform, zero-native-dependency **Google Antigravity (`agy`) plugin** and open-source **MCP App (`SEP-1865`)** engineering cockpit. It extends **Antigravity 2.0**, **Antigravity CLI (`agy`)**, and **Antigravity IDE** with a visual Git diff reviewer, a deterministic multi-language file-level dependency blast-radius graph (**TS/JS, Vue/Svelte/Astro, Python, Go, Rust, C/C++, Java/Kotlin, C#**), a workspace file tree with native `fileView` jump, and a millisecond `PreToolUse` / `PostToolUse` **Agent Time Machine** — while shipping a reusable, domain-agnostic **`src/kit/` Antigravity Plugin Kit** to accelerate community ecosystem extensions.
 >
