@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "diffatlas": {
+      "command": "node",
+      "args": [
+        "${PLUGIN_ROOT}/dist/server/index.mjs",
+        "--plugin-root=${PLUGIN_ROOT}",
+        "--data-dir=${PLUGIN_DATA}"
+      ]
+    }
+  }
+}

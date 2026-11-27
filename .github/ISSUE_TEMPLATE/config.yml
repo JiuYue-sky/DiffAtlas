@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security Vulnerability Report (Private)
+    url: https://github.com/JiuYue-sky/DiffAtlas/security/advisories/new
+    about: Report security boundaries, sandbox escapes, or privacy bugs privately.
+  - name: Antigravity Plugin Ecosystem Docs
+    url: https://antigravity.google/docs/plugins
+    about: Official Google Antigravity (agy) plugin and MCP Apps documentation.

@@ -1,0 +1,14 @@
+# Enforce consistent LF line endings across Windows, macOS, and Linux checkouts
+* text=auto eol=lf
+
+# Explicitly mark binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+*.woff binary
+*.woff2 binary
+*.glb binary
+*.wasm binary

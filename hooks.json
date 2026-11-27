@@ -1,0 +1,29 @@
+{
+  "diffatlas-time-machine": {
+    "enabled": true,
+    "PreToolUse": [
+      {
+        "matcher": "write_file|edit_file|write_to_file|replace_file_content|multi_replace_file_content",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node dist/hooks/lifecycle-hook.cjs",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "write_file|edit_file|write_to_file|replace_file_content|multi_replace_file_content",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node dist/hooks/lifecycle-hook.cjs",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

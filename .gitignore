@@ -1,0 +1,14 @@
+node_modules/
+coverage/
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+.env
+.env.*
+# Workspace-local dev plugin staging mirror (generated automatically by `npm run build`)
+.agents/
+.tmp-cleanroom/
+# Keep prebuilt zero-dependency runtime artifacts (`dist/server/index.mjs`, `dist/hooks/lifecycle-hook.cjs`,
+# `dist/ui/app.html`) tracked so `agy plugin install https://github.com/JiuYue-sky/DiffAtlas` works with zero build step.
+dist/build_verification.json
+dist/release/

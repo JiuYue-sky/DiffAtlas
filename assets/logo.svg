@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" fill="none">
+  <!-- 12.5% outer margin (32px) with high-contrast dual-theme badge -->
+  <rect x="32" y="32" width="192" height="192" rx="44" fill="#0F172A" stroke="#38BDF8" stroke-width="8"/>
+  <!-- Diff minus/plus bars -->
+  <rect x="64" y="74" width="52" height="14" rx="7" fill="#FB7185"/>
+  <rect x="140" y="74" width="52" height="14" rx="7" fill="#34D399"/>
+  <!-- Dependency impact graph edges -->
+  <path d="M128 118 L84 168 M128 118 L172 168 M84 168 L172 168" stroke="#94A3B8" stroke-width="7" stroke-linecap="round"/>
+  <!-- Time-machine rollback arc -->
+  <path d="M178 116 A52 52 0 0 0 82 112" stroke="#38BDF8" stroke-width="7" stroke-linecap="round" stroke-dasharray="10 8"/>
+  <!-- Graph nodes -->
+  <circle cx="128" cy="118" r="16" fill="#38BDF8" stroke="#F8FAFC" stroke-width="4"/>
+  <circle cx="84" cy="168" r="13" fill="#FB7185" stroke="#F8FAFC" stroke-width="4"/>
+  <circle cx="172" cy="168" r="13" fill="#34D399" stroke="#F8FAFC" stroke-width="4"/>
+</svg>

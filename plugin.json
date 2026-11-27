@@ -1,0 +1,45 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "diffatlas",
+  "displayName": "DiffAtlas",
+  "version": "0.1.0",
+  "description": "Visual git diff review, deterministic multi-language dependency blast-radius graph (TS/JS, Vue/Svelte/Astro, Python, Go, Rust, C/C++, Java/Kotlin, C#), workspace file tree, native fileView jump, and millisecond Agent checkpoint rollback workbench for Google Antigravity (agy) and MCP Apps.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Open DiffAtlas workbench to inspect changed files and impact radius",
+    "Analyze file-level blast radius and recommended tests for current git diff",
+    "List recent Agent edit checkpoints available for safe rollback"
+  ],
+  "author": {
+    "name": "JiuYue",
+    "email": "jiuyue200712@gmail.com",
+    "url": "https://github.com/JiuYue-sky"
+  },
+  "homepage": "https://github.com/JiuYue-sky/DiffAtlas#readme",
+  "repository": "https://github.com/JiuYue-sky/DiffAtlas",
+  "license": "MIT",
+  "keywords": [
+    "antigravity",
+    "google-antigravity",
+    "agy",
+    "antigravity-plugin",
+    "antigravity-mcp-app",
+    "mcp-app",
+    "mcp-server",
+    "sep-1865",
+    "git-diff",
+    "dependency-graph",
+    "blast-radius",
+    "time-machine",
+    "rollback",
+    "code-review",
+    "typescript",
+    "python",
+    "vue",
+    "go",
+    "rust",
+    "cpp",
+    "java",
+    "csharp"
+  ]
+}

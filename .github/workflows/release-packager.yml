@@ -1,0 +1,43 @@
+name: Release Packager (Antigravity Plugin)
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    name: Build & Package Standalone Plugin (${{ github.ref_name }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout tag
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci --no-audit --no-fund
+
+      - name: Run full cleanroom verification gate
+        run: npm run verify
+
+      - name: Package standalone zero-node_modules plugin archives (.zip + .tar.gz + .sha256)
+        env:
+          TAG_NAME: ${{ github.ref_name }}
+        run: npm run package:release -- "$TAG_NAME"
+
+      - name: Upload release archives and SHA-256 checksums
+        uses: actions/upload-artifact@v4
+        with:
+          name: diffatlas-plugin-${{ github.ref_name }}
+          path: |
+            dist/release/*
+            dist/build_verification.json

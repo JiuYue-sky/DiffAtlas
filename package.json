@@ -1,0 +1,99 @@
+{
+  "name": "diffatlas",
+  "version": "0.1.0",
+  "description": "Native MCP App & Lifecycle Hooks workbench plugin for Google Antigravity (agy): visual git diff review, deterministic multi-language dependency blast-radius graph (TS/JS, Vue/Svelte/Astro, Python, Go, Rust, C/C++, Java/Kotlin, C#), native fileView jump, and millisecond Agent rollback time-machine.",
+  "author": "JiuYue <jiuyue200712@gmail.com>",
+  "homepage": "https://github.com/JiuYue-sky/DiffAtlas#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JiuYue-sky/DiffAtlas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JiuYue-sky/DiffAtlas/issues",
+    "email": "jiuyue200712@gmail.com"
+  },
+  "keywords": [
+    "antigravity",
+    "google-antigravity",
+    "antigravity-2",
+    "antigravity-plugin",
+    "antigravity-extension",
+    "antigravity-mcp-app",
+    "agy",
+    "agy-plugin",
+    "agy-ecosystem",
+    "mcp-app",
+    "mcp-apps",
+    "mcp-server",
+    "model-context-protocol",
+    "sep-1865",
+    "git-diff",
+    "code-review",
+    "dependency-graph",
+    "impact-analysis",
+    "blast-radius",
+    "agent-rollback",
+    "time-machine",
+    "lifecycle-hooks",
+    "polyglot",
+    "typescript",
+    "python",
+    "go",
+    "rust",
+    "vue"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "files": [
+    "plugin.json",
+    "mcp_config.json",
+    "hooks.json",
+    "assets/",
+    "docs/",
+    "skills/",
+    "rules/",
+    "dist/ui/app.html",
+    "dist/server/index.mjs",
+    "dist/hooks/lifecycle-hook.cjs",
+    "README.md",
+    "README.zh-CN.md",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "NOTICE.md",
+    "SECURITY.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build:ui": "vite build",
+    "build": "node scripts/build.mjs",
+    "test": "vitest run",
+    "audit:self": "node scripts/self-audit.mjs",
+    "package:release": "node scripts/package-release.mjs",
+    "verify": "npm run typecheck && npm run build && npm test && npm run audit:self"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/client": "^2.0.0",
+    "@modelcontextprotocol/core": "^2.0.0",
+    "@modelcontextprotocol/ext-apps": "^2.0.4",
+    "@modelcontextprotocol/server": "^2.4.0",
+    "es-module-lexer": "^1.6.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zod": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "esbuild": "^0.25.0",
+    "typescript": "^5.7.3",
+    "vite": "^6.2.0",
+    "vite-plugin-singlefile": "^2.2.0",
+    "vitest": "^4.1.12"
+  }
+}
