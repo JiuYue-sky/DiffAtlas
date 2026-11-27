@@ -71,7 +71,7 @@ agy plugin install https://github.com/JiuYue-sky/DiffAtlas/tree/v0.1.0
 When configuring the GitHub repository settings (`https://github.com/JiuYue-sky/DiffAtlas`), apply the following metadata to strengthen search visibility for **Google Antigravity (`agy`)** and **MCP Apps**:
 
 - **Recommended Repository Description (About)**:
-  > Native Google Antigravity (agy) MCP App plugin: visual diff review, 8-language blast-radius graph, fileView jump, Agent Time Machine rollback & reusable AGY Plugin Kit.
+  > Google Antigravity (agy) MCP App plugin: interactive Git diff, 8-language dependency impact graph, safe checkpoint rollback, and reusable plugin kit.
 - **Recommended Website URL**:
   > `https://github.com/JiuYue-sky/DiffAtlas#readme`
 - **Recommended GitHub Topics (up to 20)**:
